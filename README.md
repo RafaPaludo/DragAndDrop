@@ -2,7 +2,10 @@
 ![Badge](https://img.shields.io/badge/status-doing-yellow)
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/RafaPaludo)](https://github.com/RafaPaludo)
 
-This project has to porpouse to enhance my knowleadge about JS events and other stuffs releated to it, as dashboards, UI Interface and DOM manipulation.
+This project has to porpouse to enhance my knowleadge about JS events and other stuffs releated to it, as:
+* dashboards;
+* UI Interface; 
+* DOM manipulation
 
 I've learned the basics of JavaScript and for this project the main go is create a interface / dashboard that shows exemples of drag and drop API.
 

@@ -41,6 +41,7 @@ body {
   background-color: var(--blue1);
   color: var(--white);
   height: 100vh;
+  overflow: hidden;
 }
 
 aside, main {
@@ -82,10 +83,13 @@ section {
   height: 100%;
   border: 1px dashed var(--gray1);
   border-radius: .8rem;
+  padding: 1.6rem;
+  display: none;
+  animation: fadeSection .9s ease-out forwards;
 }
 
-#basic {
-  padding: 1.6rem;
+section.active {
+  display: block;
 }
 
 .card {
@@ -104,4 +108,13 @@ section {
 .card.dragging {
   border: 3px solid var(--green3);
   box-shadow: 0 0 4px var(--green2);
+}
+
+@keyframes fadeSection {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
